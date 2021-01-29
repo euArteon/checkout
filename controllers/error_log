@@ -1,0 +1,257 @@
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[29-Nov-2020 22:59:55 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[29-Nov-2020 23:37:58 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Nov-2020 23:38:01 America/Fortaleza] {"message":"The name of the following parameters is wrong : [date_created, status_detail, live_mode, collector_id, captured, id, payment_type_id, barcode, currency_id, card, date_last_updated, payer.phone, transaction_details.total_paid_amount, transaction_details.acquirer_reference, transaction_details.installment_amount, transaction_details.net_received_amount, transaction_details.overpaid_amount, transaction_details.external_resource_url, transaction_details.payment_method_reference_id, transaction_details.verification_code, transaction_details.payable_deferral_period, additional_info.nsu_processadora, additional_info.available_balance]","error":"bad_request","status":400,"cause":[{"code":8,"description":"The name of the parameters is wrong.","data":null}]}
+[29-Nov-2020 23:53:45 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Nov-2020 23:53:48 America/Fortaleza] {"message":"The name of the following parameters is wrong : [date_created, status_detail, live_mode, collector_id, captured, id, payment_type_id, barcode, currency_id, card, date_last_updated, payer.phone, transaction_details.total_paid_amount, transaction_details.acquirer_reference, transaction_details.installment_amount, transaction_details.net_received_amount, transaction_details.overpaid_amount, transaction_details.external_resource_url, transaction_details.payment_method_reference_id, transaction_details.verification_code, transaction_details.payable_deferral_period, additional_info.nsu_processadora, additional_info.available_balance]","error":"bad_request","status":400,"cause":[{"code":8,"description":"The name of the parameters is wrong.","data":null}]}
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[29-Nov-2020 23:56:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[30-Nov-2020 00:23:04 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[30-Nov-2020 00:23:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[30-Nov-2020 00:23:36 America/Fortaleza] {"message":"The name of the following parameters is wrong : [date_created, status_detail, live_mode, collector_id, captured, id, payment_type_id, barcode, currency_id, card, date_last_updated, payer.phone, transaction_details.total_paid_amount, transaction_details.acquirer_reference, transaction_details.installment_amount, transaction_details.net_received_amount, transaction_details.overpaid_amount, transaction_details.external_resource_url, transaction_details.payment_method_reference_id, transaction_details.verification_code, transaction_details.payable_deferral_period, additional_info.nsu_processadora, additional_info.available_balance]","error":"bad_request","status":400,"cause":[{"code":8,"description":"The name of the parameters is wrong.","data":null}]}
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[30-Nov-2020 20:17:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[30-Nov-2020 20:18:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[30-Nov-2020 20:19:26 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:02:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:02:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:02:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:02:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:02:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:02:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:02:42 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:03:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:03:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:03:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:03:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:03:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:03:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:03:28 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:08:29 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:30:20 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:32:54 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:34:31 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 17:58:17 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 17:58:18 America/Fortaleza] {"message":"Invalid transaction_amount","error":"bad_request","status":400,"cause":[{"code":4037,"description":"Invalid transaction_amount","data":null}]}
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 18:00:18 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 18:11:09 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 19:22:41 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[01-Dec-2020 19:22:41 America/Fortaleza] {"message":"Card Token not found","error":"bad_request","status":400,"cause":[{"code":2006,"description":"Card Token not found","data":null}]}
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[01-Dec-2020 19:29:32 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[02-Dec-2020 00:11:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[02-Dec-2020 00:54:10 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[02-Dec-2020 01:06:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Dec-2020 01:06:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController_boleto.php on line 59
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 47
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 48
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 49
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 54
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 58
+[02-Dec-2020 16:18:07 America/Fortaleza] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 74
+[03-Dec-2020 00:14:34 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 03:14:34 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 85
+[03-Dec-2020 03:14:34 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 86
+[03-Dec-2020 03:14:34 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 87
+[03-Dec-2020 03:14:34 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 92
+[03-Dec-2020 03:14:34 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 96
+[03-Dec-2020 03:14:34 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 112
+[03-Dec-2020 00:15:15 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 12:16:45 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 19:15:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 19:41:19 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 19:59:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 20:45:13 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 23:45:14 UTC] PHP Fatal error:  Uncaught Exception: Wrong type string. It should be float for property transaction_amount in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat('', 'float', 'transaction_amo...')
+#1 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('transaction_amo...', '')
+#2 /home1/deatly35/public_html/checkout/controllers/PaymentController_boleto.php(62): MercadoPago\Entity->__set('transaction_amo...', '')
+#3 {main}
+  thrown in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[03-Dec-2020 20:47:29 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 23:47:29 UTC] PHP Fatal error:  Uncaught Exception: Wrong type string. It should be float for property transaction_amount in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat('', 'float', 'transaction_amo...')
+#1 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('transaction_amo...', '')
+#2 /home1/deatly35/public_html/checkout/controllers/PaymentController_boleto.php(62): MercadoPago\Entity->__set('transaction_amo...', '')
+#3 {main}
+  thrown in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[03-Dec-2020 20:48:06 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 21:04:42 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Dec-2020 21:09:15 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[04-Dec-2020 14:59:28 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[05-Dec-2020 23:28:20 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[05-Dec-2020 23:28:21 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Wrong type NULL. It should be float for property transaction_amount in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(NULL, 'float', 'transaction_amo...')
+#1 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('transaction_amo...', NULL)
+#2 /home1/deatly35/public_html/checkout/controllers/PaymentController_conv.php(8): MercadoPago\Entity->__set('transaction_amo...', NULL)
+#3 {main}
+  thrown in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[05-Dec-2020 23:29:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[05-Dec-2020 23:29:30 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Wrong type NULL. It should be float for property transaction_amount in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(NULL, 'float', 'transaction_amo...')
+#1 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('transaction_amo...', NULL)
+#2 /home1/deatly35/public_html/checkout/controllers/PaymentController_conv.php(8): MercadoPago\Entity->__set('transaction_amo...', NULL)
+#3 {main}
+  thrown in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[06-Dec-2020 00:14:50 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Dec-2020 00:22:26 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Dec-2020 00:37:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Dec-2020 00:53:04 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Dec-2020 03:53:04 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 83
+[06-Dec-2020 03:53:04 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 84
+[06-Dec-2020 03:53:04 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 85
+[06-Dec-2020 03:53:04 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 90
+[06-Dec-2020 03:53:04 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 94
+[06-Dec-2020 03:53:04 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 110
+[06-Dec-2020 17:50:52 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[06-Dec-2020 17:54:40 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[07-Dec-2020 03:34:44 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[07-Dec-2020 06:34:44 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 83
+[07-Dec-2020 06:34:44 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 84
+[07-Dec-2020 06:34:44 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 85
+[07-Dec-2020 06:34:44 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 90
+[07-Dec-2020 06:34:44 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 94
+[07-Dec-2020 06:34:44 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 110
+[07-Dec-2020 16:50:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Dec-2020 08:19:41 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[15-Dec-2020 11:19:42 UTC] {"message":"transaction_amount attribute can't be null","error":"bad_request","status":400,"cause":[{"code":4002,"description":"transaction_amount attribute can't be null","data":null}]}
+[15-Dec-2020 08:20:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Dec-2020 05:04:58 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Dec-2020 06:01:17 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[16-Dec-2020 09:01:17 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 93
+[16-Dec-2020 09:01:17 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 94
+[16-Dec-2020 09:01:17 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 95
+[16-Dec-2020 09:01:17 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 100
+[16-Dec-2020 09:01:17 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 104
+[16-Dec-2020 09:01:17 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 120
+[28-Dec-2020 18:04:07 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[31-Dec-2020 13:05:27 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[31-Dec-2020 16:05:28 UTC] {"message":"Invalid user identification number","error":"bad_request","status":400,"cause":[{"code":2067,"description":"Invalid user identification number","data":null}]}
+[31-Dec-2020 13:05:33 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[31-Dec-2020 13:05:33 America/Fortaleza] {"message":"Invalid user identification number","error":"bad_request","status":400,"cause":[{"code":2067,"description":"Invalid user identification number","data":null}]}
+[31-Dec-2020 13:05:36 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[31-Dec-2020 13:05:37 America/Fortaleza] {"message":"Invalid user identification number","error":"bad_request","status":400,"cause":[{"code":2067,"description":"Invalid user identification number","data":null}]}
+[31-Dec-2020 13:06:56 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Jan-2021 01:38:54 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Jan-2021 01:38:54 America/Fortaleza] PHP Fatal error:  Uncaught Exception: Wrong type NULL. It should be float for property transaction_amount in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php:459
+Stack trace:
+#0 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(368): MercadoPago\Entity->tryFormat(NULL, 'float', 'transaction_amo...')
+#1 /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php(312): MercadoPago\Entity->_setValue('transaction_amo...', NULL)
+#2 /home1/deatly35/public_html/checkout/controllers/PaymentController_conv.php(8): MercadoPago\Entity->__set('transaction_amo...', NULL)
+#3 {main}
+  thrown in /home1/deatly35/public_html/checkout/lib/vendor/mercadopago/dx-php/src/MercadoPago/Entity.php on line 459
+[03-Jan-2021 01:40:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[03-Jan-2021 04:40:09 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 93
+[03-Jan-2021 04:40:09 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 94
+[03-Jan-2021 04:40:09 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 95
+[03-Jan-2021 04:40:09 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 100
+[03-Jan-2021 04:40:09 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 104
+[03-Jan-2021 04:40:09 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 120
+[12-Jan-2021 15:18:40 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[12-Jan-2021 15:19:52 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[12-Jan-2021 16:03:14 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[12-Jan-2021 16:03:49 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[12-Jan-2021 19:03:50 UTC] {"message":"transaction_amount attribute can't be null","error":"bad_request","status":400,"cause":[{"code":4002,"description":"transaction_amount attribute can't be null","data":null}]}
+[12-Jan-2021 16:04:13 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Jan-2021 08:40:08 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Jan-2021 14:45:38 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Jan-2021 17:09:40 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[18-Jan-2021 20:09:40 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 93
+[18-Jan-2021 20:09:40 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 94
+[18-Jan-2021 20:09:40 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 95
+[18-Jan-2021 20:09:40 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 100
+[18-Jan-2021 20:09:40 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 104
+[18-Jan-2021 20:09:40 UTC] PHP Warning:  Creating default object from empty value in /home1/deatly35/public_html/checkout/controllers/PaymentController.php on line 120
+[19-Jan-2021 17:07:30 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[25-Jan-2021 16:53:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0

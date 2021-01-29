@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <title>Checkout Deatly</title>
+    <link rel="stylesheet" href="./lib/css/style.css">
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T6BVNJX');</script>
+    <!-- End Google Tag Manager -->
+    <link rel="icon" href="images/icons/fav.webp">
+</head>
+<body>    
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6BVNJX"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->  
+<!-- Pre-loader -->
+<div class="preloader" id="preloader">
+    <div class="loading" data-loading="">
+        <section id="loading">
+            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        </section>
+    </div>
+    <div class="ambiente">
+        <p>Carregando Ambiente Seguro</p>
+    </div>
+</div>
+<!-- Pre-loader /-->
+<div class="header"><!-- header -->
+    <div class="container">
+        <div class="header-grid">
+            <div class="header-content">   
+                <img src="images/white-logomarca.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div><!-- header /-->
+<div class="checkout"><!-- checkout -->
+    <div class="container">
+        <div class="form-grid"><!-- form-grid -->
+            <div class="form-content">
+                <div class="steps-row">
+                    <div class="steps-grid">
+                        <div class="steps-content step-active-progress">
+                            <p>01. dados de contato</p>
+                        </div>
+                    </div>
+                    <div class="steps-grid">
+                        <div class="steps-content">
+                            <p>02. dados de entrega</p>
+                        </div>
+                    </div>
+                    <div class="steps-grid">
+                        <div class="steps-content">
+                            <p>03. dados de pagamento</p>
+                        </div>
+                    </div>
+                </div>
+                <form action="./controllers/PaymentController.php" method="post" id="paymentForm" class="form-row"><!-- form-row -->
+                    <div class="form-two-grid">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="name">Nome completo</label>
+                            </div>
+                            <input id="name" data-form="name" type="text" placeholder="Nome e sobrenome" name="name" required onselectstart="return false" onpaste="return false"
+                            oncopy="return false" oncut="return false" ondrag="return false" ondrop="return false" autocomplete=off>
+                        </div>                        
+                    </div>
+                    <div class="form-two-grid">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="email">E-mail</label>
+                            </div>
+                            <input id="email" data-form="email" type="email" placeholder="fulanodasilva@email.com" name="email" required onselectstart="return false" onpaste="return false"
+                            oncopy="return false" oncut="return false" ondrag="return false" ondrop="return false" autocomplete="off">
+                        </div>                        
+                    </div>
+                    <div class="form-two-grid">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="phone">Telefone</label>
+                            </div>
+                            <input id="phone" data-form="phone" type="tel" placeholder="(99) 99999 - 9999" name="phone" maxlength="15" required onselectstart="return false" onpaste="return false"
+                            oncopy="return false" oncut="return false" ondrag="return false" ondrop="return false" autocomplete=off>
+                            <input style="display: none;" id="area" data-form="area" type="tel" name="area" maxlength="15" required>
+                            <input style="display: none;" id="clear_number" data-form="clear_number" type="tel" name="clear_number" maxlength="15" required>
+                        </div>                        
+                    </div>
+                    <div class="form-two-grid" style="display: none;">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="docType">docType</label>
+                            </div>
+                            <select id="docType" name="docType" data-checkout="docType" type="text"></select>
+                        </div>                        
+                    </div>
+                    <div class="form-two-grid">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="docNumber">CPF</label>
+                            </div>
+                            <input id="document" data-form="document" type="text" placeholder="123.456.789-12" data-checkout="document" name="document" maxlength="14" required onselectstart="return false" onpaste="return false"
+                            oncopy="return false" oncut="return false" ondrag="return false" ondrop="return false" autocomplete=off>
+                            <input id="docNumber" data-form="docNumber" type="text" placeholder="123.456.789-12" data-checkout="docNumber" name="docNumber" required style="display: none;">
+                        </div>                        
+                    </div>
+                    <div class="form-two-grid">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="cep">CEP</label>
+                            </div>
+                            <input id="cep" data-form="cep" type="tel" placeholder="12345-000" name="cep" maxlength="9" required onselectstart="return false" onpaste="return false"
+                            oncopy="return false" oncut="return false" ondrag="return false" ondrop="return false" autocomplete=off>
+                            <input id="zip" data-form="zip" data-checkout="zip" type="tel" placeholder="12345-000" name="zip" maxlength="8" style="display: none;" required>
+                        </div>                        
+                    </div>                   
+                    <div class="form-two-grid afterCEP">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="street">Endereço</label>
+                            </div>
+                            <input id="street" data-checkout="street" type="text" placeholder="Rua, Avenida, Alameda" name="street" maxlength="255" required>
+                        </div>                        
+                    </div>
+                    <div class="form-two-grid afterCEP">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="number">Número</label>
+                            </div>
+                            <input id="number" data-checkout="number" type="tel" placeholder="3213" name="number" maxlength="10" required>
+                        </div>                        
+                    </div>                                        
+                    <div class="form-two-grid afterCEP">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="complement">Complemento</label>
+                            </div>
+                            <input id="complement" data-checkout="complement" type="text" placeholder="Apartamento, unidade..." name="complement" maxlength="255">
+                        </div>                        
+                    </div>                    
+                    <div class="form-two-grid afterCEP">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="neighborhood" for="neighborhood">Bairro</label>
+                            </div>
+                            <input id="neighborhood" data-checkout="neighborhood" type="text" placeholder="Bairro" name="neighborhood" maxlength="255" required>
+                        </div>                        
+                    </div>                    
+                    <div class="form-two-grid afterCEP">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="city">Cidade</label>
+                            </div>
+                            <input id="city" data-checkout="city" type="text" placeholder="Cidade" name="city" maxlength="255" required>
+                        </div>                        
+                    </div>                    
+                    <div class="form-two-grid afterCEP">
+                        <div class="form-two-content">
+                            <div class="label">
+                                <label for="state">Estado</label>
+                            </div>
+                            <input id="state" data-form="state" type="text" placeholder="Estado" name="state" maxlength="50" required>
+                        </div>                        
+                    </div>
+                    <div class="payment-methods">
+                        <div class="form-two-grid">
+                            <div class="form-two-content">
+                                <div class="label">
+                                    <input id="credit-card" type="button" value="CARTÃO DE CRÉDITO" class="payment-methods-btn mtd-btn-active">
+                                </div>                                    
+                            </div>                        
+                        </div>
+                        <div class="form-two-grid">
+                            <div class="form-two-content">
+                                <div class="label">
+                                    <input id="boleto" type="button" value="BOLETO BANCÁRIO" class="payment-methods-btn">
+                                </div>                                    
+                            </div>                        
+                        </div>                        
+                    </div>
+                    <div class="credit-card-form">
+                        <div class="payment-brandings">
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/master.svg" alt="" data-branding="master">
+                                </div>
+                            </div>
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/visa.svg" alt="" data-branding="visa">
+                                </div>
+                            </div>
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/amex.svg" alt="" data-branding="amex">
+                                </div>
+                            </div>
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/elo.svg" alt="" data-branding="elo">
+                                </div>
+                            </div>
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/diners.svg" alt="" data-branding="diners">
+                                </div>
+                            </div>
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/hiper.svg" alt="" data-branding="hiper">
+                                </div>
+                            </div>
+                            <div class="payment-grid">
+                                <div class="payment-content">
+                                    <img src="images/icons/brandings/mp.png" alt="" data-branding="mp">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-two-grid">
+                            <div class="form-two-content">
+                                <div class="label">
+                                    <label for="cardNumber">Número do cartão</label>
+                                </div>
+                                <input type="text" id="cardNumber" data-checkout="cardNumber" placeholder="4235 6477 2802 5682"
+                                onselectstart="return false" onpaste="return false"
+                                oncopy="return false" oncut="return false"
+                                ondrag="return false" ondrop="return false" autocomplete=off maxlength="16" required>
+                            </div>                        
+                        </div>                    
+                        <div class="form-two-grid">
+                            <div class="form-two-content">
+                                <div class="label">
+                                    <label for="cardholderName">Nome impresso no cartão</label>
+                                </div>
+                                <input data-checkout="cardholderName" type="text" placeholder="Nome impresso no cartão" id="cardholderName" required onselectstart="return false" onpaste="return false"
+                                oncopy="return false" oncut="return false"
+                                ondrag="return false" ondrop="return false" autocomplete=off required> 
+                            </div>                        
+                        </div>
+                        <div class="form-three-grid" style="display:none;" id="instgrid">
+                            <div class="form-three-content">
+                                <div class="label">
+                                    <label for="installments">Parcelamento</label>
+                                </div>
+                                <select type="text" id="installments" name="installments"></select>
+                            </div>                        
+                        </div>                                      
+                        <div class="form-three-grid">
+                            <div class="form-three-content">
+                                <div class="label">
+                                    <label for="cardExpiration">Validade do cartão</label>
+                                </div>
+                            <input id="cardExpiration" data-form="cardExpiration" type="text" placeholder="12/23" maxlength="5" required>
+                                    <input style="display: none;" type="text" placeholder="MM" id="cardExpirationMonth" data-checkout="cardExpirationMonth"
+                                    onselectstart="return false" onpaste="return false"
+                                    oncopy="return false" oncut="return false"
+                                    ondrag="return false" ondrop="return false" autocomplete=off>
+                                    <span style="display: none;" class="date-separator">/</span>
+                                    <input style="display: none;" type="text" placeholder="YY" id="cardExpirationYear" data-checkout="cardExpirationYear"
+                                    onselectstart="return false" onpaste="return false"
+                                    oncopy="return false" oncut="return false"
+                                    ondrag="return false" ondrop="return false" autocomplete=off>
+                            </div>                        
+                        </div>
+                        <div class="form-three-grid">
+                            <div class="form-three-content">
+                                <div class="label">
+                                    <label for="securityCode">Cód. segurança</label>
+                                </div>
+                                <input id="securityCode" data-checkout="securityCode" type="text" placeholder="123" maxlength="4" required onselectstart="return false" onpaste="return false"
+                                oncopy="return false" oncut="return false"
+                                ondrag="return false" ondrop="return false" autocomplete=off>
+                            </div>                        
+                        </div>
+                    </div>
+                    <div class="boleto-form">
+                        <h2>ATENÇÃO</h2>
+                        <div class="informations-grid">
+                            <div class="informations-content">
+                                <div class="informations-content-icon">
+                                    <img src="images/icons/caret-right-solid.svg" alt="">
+                                </div>
+                                <div class="informations-content-text">
+                                    <p>Não há como realizar o parcelamento por boleto;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="informations-grid">
+                            <div class="informations-content">
+                                <div class="informations-content-icon">
+                                    <img src="images/icons/caret-right-solid.svg" alt="">
+                                </div>
+                                <div class="informations-content-text">
+                                    <p>Os pagamentos levam até 3 dias úteis para serem compensados e então entrarem para lista de envios;</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="informations-grid">
+                            <div class="informations-content">
+                                <div class="informations-content-icon">
+                                    <img src="images/icons/caret-right-solid.svg" alt="">
+                                </div>
+                                <div class="informations-content-text">
+                                    <p>Fique atento(a) à data de vencimento. Você pode pagar em qualquer banco ou casa lotérica até o vencimento.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="form-submit">
+                        <div class="submit-content">
+                            <input id="send-order" type="submit" value="FINALIZAR COMPRA" onclick="">
+                        </div>
+                    </div>
+                    <!-- MP -->
+                    <div>
+                        <input type="hidden" name="transactionAmount" id="transactionAmount" value="" />
+                        <input style="display: none;" type="text" name="paymentMethodId" id="paymentMethodId"/>
+                        <input style="display: none;" type="text" name="mtd" id="mtd" value="cartao"/>
+                        <input type="hidden" name="description" id="description" value=""/>
+                        <br>
+                    </div>  
+                    <!-- MP -->    
+                    <!-- product-info -->   
+                    <div style="display: none;">
+                        <input style="display: none;" type="text" name="pdt_id" id="pdt_id" value=""/>
+                        <input style="display: none;" type="text" name="v1v" id="v1v" value=""/>
+                        <input style="display: none;" type="text" name="v2v" id="v2v" value=""/>
+                        <input style="display: none;" type="text" name="v3v" id="v3v" value=""/>
+                        <input style="display: none;" type="text" name="v4v" id="v4v" value=""/>
+                        <input style="display: none;" type="text" name="v5v" id="v5v" value=""/>
+                        <input style="display: none;" type="text" name="v1n" id="v1n" value=""/>
+                        <input style="display: none;" type="text" name="v2n" id="v2n" value=""/>
+                        <input style="display: none;" type="text" name="v3n" id="v3n" value=""/>
+                        <input style="display: none;" type="text" name="v4n" id="v4n" value=""/>
+                        <input style="display: none;" type="text" name="v5n" id="v5n" value=""/>
+                        <br>
+                    </div>                                
+                </form><!-- form-row /-->
+            </div>
+        </div><!-- form-grid /-->
+        <div class="space-grid"><!-- space-grid -->
+        </div><!-- space-grid /-->
+        <div class="cart-grid"><!-- cart-grid -->
+            <div class="cart-content">
+                <div class="cart">
+                    <div class="security-click">
+                        <div class="security-bar hidden" id="sec-bar">
+                            <div class="security-bar-text">
+                                <div class="text-content">
+                                    <p>compra 100% segura</p>
+                                </div>
+                            </div>
+                            <div class="security-bar-icon">
+                                <div class="icon-content">
+                                    <img src="images/icons/information-b.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-icon">
+                        <div class="cart-header" style="text-align: left;">
+                            <div class="header-cart-content">
+                                <p>Seu carrinho</p>
+                            </div>
+                        </div>
+                        <div class="cart-header">
+                            <div class="header-cart-content" style="text-align: right;">
+                                <img src="images/icons/shopping-cart.svg" alt="cart">
+                                <span class="cart-count-icon-mob" id="qtd" data-total>0</span>
+                                <img src="images/icons/chevron-down-solid.svg" alt="arrow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-details">
+                        <div class="container">
+                            <div class="add-msg" style="display: none; color: green;">
+                                <div class="add-msg-content">
+                                    <p>Seus items foram adicionados ao carrinho</p> 
+                                </div>                
+                            </div>
+                            <div id="msg2" style="display: none; color: red;">
+                                <div class="add-msg-content">
+                                    <p>Você atingiu o limite de unidades disponíveis no estoque.</p>
+                                </div>                
+                            </div>
+                            <section class="first-mark">
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-left">
+                                        <h4>Produto</h4>
+                                    </div>
+                                </div>
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-right">
+                                        <p>Qtd</p>
+                                    </div>
+                                </div>
+                                <div class="details-three-grid-img">
+                                    <div class="details-three-content-img"></div>                
+                                </div>
+                                <div class="details-three-grid-product">
+                                    <div class="details-three-content-product">
+                                        <span id="product-name" style="text-transform: capitalize;"></span><span> ®</span>
+                                    </div>
+                                </div>
+                                <div class="details-three-grid-qty">
+                                    <div class="details-three-content-qty">
+                                        <span data-totaldetails></span>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="product-vars" id="sel-var1">
+                                <section class="vars-mark">
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-left">
+                                            <p id="var1-name"></p>
+                                        </div>
+                                    </div>
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-right">
+                                            <div data-masc-button="">
+                                                <input data-soloadd="" type="button" value="-" onclick="decrement1('solo-black')"/>
+                                                    <input data-btnstyle data-opblack id="solo-black"  type="text" required size="1" value="0" maxlength="1" class="selector" name="v1" id="v1">
+                                                <input data-soloadd="" type="button" value="+" data-addition onclick="increment1('solo-black')"><br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="product-vars" id="sel-var2">
+                                <section class="vars-mark">
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-left">
+                                            <p id="var2-name"></p>
+                                        </div>
+                                    </div>
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-right">
+                                            <div data-masc-button="">
+                                                <input data-soloadd="" type="button" value="-" onclick="decrement1('solo-wine')"/>
+                                                    <input data-btnstyle data-opwine  id="solo-wine"  type="text" required size="1" value="0" maxlength="1" class="selector" name="v2" id="v2">
+                                                <input data-soloadd="" type="button" value="+" data-addition onclick="increment1('solo-wine')"><br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="product-vars" id="sel-var3">
+                                <section class="vars-mark">
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-left">
+                                            <p id="var3-name"></p>
+                                        </div>
+                                    </div>
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-right">
+                                            <div data-masc-button="">
+                                                <input data-soloadd="" type="button" value="-" onclick="decrement1('solo-pink')"/>
+                                                    <input data-btnstyle data-oppink id="solo-pink"  type="text" required size="1" value="0" maxlength="1" class="selector" name="v3" id="v3">
+                                                <input data-soloadd="" type="button" value="+" data-addition onclick="increment1('solo-pink')"><br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="product-vars" id="sel-var4">
+                                <section class="vars-mark">
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-left">
+                                            <p id="var4-name"></p>
+                                        </div>
+                                    </div>
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-right">
+                                            <div data-masc-button="">
+                                                <input data-soloadd="" type="button" value="-" onclick="decrement1('solo-blue')"/>
+                                                    <input data-btnstyle data-opblue  id="solo-blue"  type="text" required size="1" value="0" maxlength="1" class="selector" name="v4" id="v4">
+                                                <input data-soloadd="" type="button" value="+" data-addition onclick="increment1('solo-blue')"><br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="product-vars" id="sel-var5">
+                                <section class="vars-mark">
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-left">
+                                            <p id="var5-name"></p>
+                                        </div>
+                                    </div>
+                                    <div class="details-two-grid">
+                                        <div class="details-two-content-right">
+                                            <div data-masc-button="">
+                                                <input data-soloadd="" type="button" value="-" onclick="decrement1('solo-flower')"/>
+                                                    <input data-btnstyle data-opflower disabled id="solo-flower"  type="text" required size="1" value="0" maxlength="1" class="selector" name="v5" id="v5">
+                                                <input data-soloadd="" type="button" value="+" data-addition><br />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </section>
+                            <section class="pay-details">
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-left">
+                                        <p>Preço Unitário</p>
+                                    </div>
+                                </div>
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-right">
+                                        <span>R$ </span><span id="cart-unitprice"></span>
+                                    </div>
+                                </div>
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-left">
+                                        <p>Frete</p>
+                                    </div>
+                                </div>
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-right">
+                                        <p>-</p>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="cart-total">
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-left">
+                                        <p>Total</p>
+                                    </div>
+                                </div>
+                                <div class="details-two-grid">
+                                    <div class="details-two-content-right">
+                                        <span>R$ </span><span id="cart-total"></span>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div><!-- cart-details /-->
+                    <div class="security-desktop">
+                        <div class="security-container">
+                            <div class="security-grid-img">
+                                <div class="security-content">
+                                    <div>                                    
+                                        <img src="./images/icons/shield.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="security-grid">
+                                <div class="security-content">
+                                    <p>Todas as transações são intermediadas pelo Mercado Pago, maior plataforma de pagamentos digitais da America Latina</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="security-container">
+                            <div class="security-grid-img">
+                                <div class="security-content">                                
+                                    <img src="./images/icons/lock.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="security-grid">
+                                <div class="security-content">
+                                    <p>Seus dados trafegam criptografados a 256 bits, o mesmo utilizado pelos bancos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="security-container">
+                            <div class="security-grid-img">
+                                <div class="security-content">
+                                    <img src="./images/icons/protected.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="security-grid">
+                                <div class="security-content">
+                                    <p>É impossível ocorrer fraude em seu nome, afinal, nenhum dado sensível fica guardado em nosso sistema</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="security-header">
+                        <div class="security-container">
+                            <div class="security-grid-img">
+                                <div class="security-content">
+                                    <div>                                    
+                                        <img src="./images/icons/shield.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="security-grid">
+                                <div class="security-content">
+                                    <p>Todas as transações são intermediadas pelo Mercado Pago, maior plataforma de pagamentos digitais da America Latina</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="security-container">
+                            <div class="security-grid-img">
+                                <div class="security-content">                                
+                                    <img src="./images/icons/lock.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="security-grid">
+                                <div class="security-content">
+                                    <p>Seus dados trafegam criptografados a 256 bits, o mesmo utilizado pelos bancos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="security-container">
+                            <div class="security-grid-img">
+                                <div class="security-content">
+                                    <img src="./images/icons/protected.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="security-grid">
+                                <div class="security-content">
+                                    <p>É impossível ocorrer fraude em seu nome, afinal, nenhum dado sensível fica guardado em nosso sistema</p>
+                                </div>
+                            </div>
+                        </div>
+                        <input type="button" style="display: none;" data-btnsec value="ENTENDI... QUERO COMPRAR!">
+                    </div>
+                </div>
+            </div>
+        </div><!-- cart-grid /-->
+    </div>
+</div><!-- checkout /-->
+<div class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <p>Deatly</p>
+            <p>Todos os direitos reservados</p>
+        </div>
+    </div>
+</div>
+<!-- Processando -->
+<div class="processando" id="processando" style="display: none;">
+    <div class="processando-container">
+        <div class="loading" data-loading="">
+            <section id="loading">
+                <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+            </section>
+        </div>
+        <div class="process-msg" id="process-msg">
+            <p>Estamos processando seu pagamento.<br/>Não feche esta tela.</p>
+        </div>
+    </div>
+</div>
+<!-- Processando /-->
+<script src="./lib/js/mask.js"></script>
+<script src="https://www.mercadopago.com/v2/security.js" view="item"></script>
+<script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
+<script src="./lib/js/deatly.js"></script>
+<script src="./lib/js/transparente.js"></script>
+<script>
+    window.onload = () => {
+        document.querySelector('#preloader').style.display = 'none';
+        fbq('track','InitiateCheckout', {content_type: 'product', content_ids: content_id})
+    }
+</script>
+</body>
+</html>

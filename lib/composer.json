@@ -1,0 +1,14 @@
+{
+    "name": "deatly/mp",
+    "description": "checkout transparente mercado pago",
+    "authors": [
+        {
+            "name": "Arteon",
+            "email": "euarteon@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "^2.1",
+        "phpmailer/phpmailer": "6.2.*"
+    }
+}

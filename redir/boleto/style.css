@@ -1,0 +1,366 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* General */
+.container{
+    width: inherit;
+    max-width: 968px;
+    height: inherit;
+    margin: 0 auto;
+}
+/* General /*/
+
+
+/* Header */
+.header{
+    width: 100%;
+    height: 250px;
+    background-color: #545358;
+}
+
+.header-grid-img, .header-grid-text{
+    height: inherit;
+    display: inline-block;
+    margin-right: -4px;
+    margin-bottom: -4px;
+    color: white;
+    text-align: left;
+}
+
+.header-grid-img{
+    width: 25%;
+}
+
+.header-grid-text{
+    width: 75%;
+}
+
+.header-content{
+    display: table-cell;
+    width: 900px;
+    height: inherit;
+    vertical-align: middle;
+}
+
+.header-grid-img img{
+    width: 150px;
+    border-radius: 5px;
+}
+
+.header-grid-text h4{
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.header-grid-text input[type="button"]{
+    padding: 10px 25px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: black;
+    background: linear-gradient(150.53deg, #FFE45C 0%, #FFC900 100%);
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    font-weight: normal;
+    margin-top: 15px;
+    display: block;
+}
+
+.header span{
+    font-size: 0.8rem;
+}
+
+/* Header /*/
+
+
+/* Status */
+.status{
+    width: 100%;
+    height: 70px;
+    margin-top: 50px;
+}
+
+.status{
+    text-align: center;
+}
+
+.status .container h2{
+    margin-bottom: 25px;
+    font-size: 1.5rem;
+}
+
+.status-group{
+    width: calc(100% / 4);
+    height: inherit;
+    display: inline-block;
+    margin-right: -6px;
+    margin-bottom: -4px;
+    vertical-align: top;
+}
+
+.status-grid{
+    width: calc(100% / 2);
+    height: inherit;
+    display: inline-block;
+    margin-right: -6px;
+    margin-bottom: -4px;
+    border-bottom: solid 10px rgb(231, 231, 231);
+    vertical-align: top;
+}
+
+.status-content{
+    display: table-cell;
+    width: 125px;
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+    position: relative;
+    font-size: 1rem;
+}
+
+.ready-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #545358;
+    position: absolute;
+    left: -15px;
+    bottom: -10px;
+}
+
+.unready-circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px rgb(231, 231, 231);
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: -10px;
+}
+
+.ready-status-icons{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 150%;
+    right: 45%;
+}
+
+.unready-status-icons{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 150%;
+    left: -65%;
+}
+
+.last-status-icons{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    top: 150%;
+    left: 40%;
+}
+
+.last-status-icons img{
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.unready-status-icons img{
+    width: 45px;
+    margin-bottom: 10px;
+}
+
+.ready-status-icons img{
+    width: 45px;
+    margin-bottom: 15px;
+}
+
+.ready-status-icons p{
+    position: relative;
+    left: -5%;
+}
+
+
+/* Status /*/
+
+/* Informations */
+.informations{
+    width: 100%;
+    height: 250px;
+    margin-top: 250px;
+}
+
+.informations-grid{
+    width: 100%;
+    height: inherit;
+}
+
+.informations-content{
+    display: table-cell;
+    width: 968px;
+    height: inherit;
+}
+
+.informations-content h2{
+    text-align: center;
+    margin-bottom: 35px;
+    font-size: 1.3rem;
+}
+
+.informations-content p{
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 1rem;
+}
+/* Informations /*/
+
+/* Footer */
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: #545358;
+    margin-bottom: -20px;
+}
+
+.footer-grid{
+    width: 100%;
+    height: inherit;
+}
+
+.footer-content{
+    display: table-cell;
+    width: 968px;
+    height: inherit;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+}
+/* Footer /*/
+
+
+@media screen and (max-width: 968px){
+    .container{
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .header{
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+
+    .header-grid-text{
+        height: auto;
+    }
+
+    .header-grid-img{
+        height: 80px;
+    }
+
+    .header-grid-img{
+        width: 100%;
+ 
+    }
+    
+    .header-grid-text{
+        width: 100%;
+    }
+
+    .informations{
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .last-status-icons img{
+        width: 30px;
+    }
+    
+    .unready-status-icons img{
+        width: 30px;
+    }
+    
+    .ready-status-icons img{
+        width: 30px;
+    }
+
+    .status-content{
+        font-size: 0.8rem;
+    }
+    
+    .ready-circle{
+        width: 30px;
+        height: 30px;
+        bottom: -10px;
+    }
+
+    .ready-status-icons p{
+        position: relative;
+        left: -20%;
+    }
+    
+}
+
+@media screen and (max-width: 458px){
+    .status-group{
+        width: calc(125% / 4);
+        height: inherit;
+        display: inline-block;
+        margin-right: -6px;
+        margin-bottom: -4px;
+        vertical-align: top;
+    }
+    
+    .status-grid{
+        width: calc(100% / 2);
+        height: inherit;
+        display: inline-block;
+        margin-right: -6px;
+        margin-bottom: -4px;
+        border-bottom: solid 10px rgb(231, 231, 231);
+        vertical-align: top;
+    }
+    
+    .status-content{
+        font-size: 0.6rem;
+    }
+
+    .ready-status-icons{
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        top: 150%;
+        right: 45%;
+    }
+
+    .unready-status-icons{
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        top: 150%;
+        left: -65%;
+    }
+
+    .last-status-icons{
+        width: 80%;
+        height: 50px;
+        position: absolute;
+        top: 150%;
+        left: 40%;
+    }
+
+    .informations{
+
+        margin-top: 280px;
+    }
+}

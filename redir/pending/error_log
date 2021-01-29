@@ -1,0 +1,9 @@
+[01-Dec-2020 17:32:55 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[04-Dec-2020 21:19:02 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[04-Dec-2020 21:19:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'payment_id' cannot be null in /home1/deatly35/public_html/checkout/redir/pending/index.php:42
+Stack trace:
+#0 /home1/deatly35/public_html/checkout/redir/pending/index.php(42): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home1/deatly35/public_html/checkout/redir/pending/index.php on line 42
+[07-Dec-2020 03:35:56 America/Fortaleza] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[07-Dec-2020 03:35:56 America/Fortaleza] PHP Warning:  file_get_contents(./email.html): failed to open stream: No such file or directory in /home1/deatly35/public_html/checkout/redir/pending/index.php on line 44
